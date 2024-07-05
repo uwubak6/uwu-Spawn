@@ -1,0 +1,58 @@
+#plugin zostal napisany przez uwubak <3!
+#jesli masz jakies bledy zglos je na
+#naszym discordzie!
+#przyklad typu TITLE_SUBTITLE: Witaj %NEWLINE% graczu [%NEWLINE% rozdziela title od subtitle!]
+#main
+#cooldown
+cooldown: 5
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+usage-type: CHAT
+usage-message: '&cPoprawne uzycie: &4/spawn [set]'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+spawn-not-set-type: CHAT
+spawn-not-set-message: '&cSpawn nie jest aktualnie ustawiony!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+teleport-exist-type: CHAT
+teleport-exist-message: '&cJestes juz podczas &4Teleportacji!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+teleport-success-type: CHAT
+teleport-success-message: '&aPomyslnie przeteleportowano!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+teleport-in-type: CHAT
+teleport-in-message: '&fZostaniesz przeteleportowany za: &a{TIME}'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+spawn-set-type: CHAT
+spawn-set-message: '&aPomyslnie ustawiono lokalizacje spawna!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+spawn-deleted-type: CHAT
+spawn-deleted-message: '&cPomyslnie usunieto lokalizacje spawna!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+teleport-cancel-type: CHAT
+teleport-cancel-message: '&cRuszyles sie teleportacja zostala anulowana!'
+#
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR, SUBTITLE_ACTIONBAR]
+reload-success-type: CHAT
+reload-success-message: '&aPomyslnie przeladowano konfiguracje pluginu!'
+#
+#sounds
+#
+#teleport success sound
+teleport-success-sound-active: true
+teleport-success-sound: BLOCK_ANVIL_PLACE
+#
+#teleport sound
+teleport-sound-active: true
+teleport-sound: BLOCK_NOTE_BLOCK_BANJO
+#
+#teleport cancel sound
+teleport-cancel-sound-active: true
+teleport-cancel-sound: ENTITY_VILLAGER_NO
+
