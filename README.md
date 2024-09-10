@@ -1,2 +1,2 @@
 # uwu-Spawn
-wez ty kurwa se ten kod w dupe wsadz
+moze i nie jestem kurwa dzawa defeloper z 10 letnim doswiadczeniem ale kurwa nie skiduje pluginow :skull.:
